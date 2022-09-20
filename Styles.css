@@ -1,0 +1,116 @@
+html{
+    height: 100%;
+    padding: 0;
+    /*background: url("images/background.mp4") no-repeat;*/
+    background: url("https://wallpaper.dog/large/5513142.jpg");
+    background-size: cover;
+}
+
+
+body{
+
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    /*background: url("images/background.mp4") no-repeat;*/
+    /*background-size: cover;*/
+
+}
+
+.container{
+    margin: auto;
+    height: 500px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #fff;
+    padding: 18px;
+    box-shadow: 4px 4px 4px #bd7f1f;
+}
+/*------------------------------------------------------------------------------------*/
+.screen {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100px;
+    width: auto;
+    padding: 10px;
+    border-bottom-width: 2px;
+    border-bottom-color: #bd7f1f;
+    border-bottom-style: solid;
+    overflow: auto;
+    word-break: break-all;
+}
+
+.screen output {
+    font-size: 3rem;
+    margin: 0;
+
+}
+
+table{
+    width: 100%;
+}
+tbody{
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/*------------------------------------------------------------------------------------*/
+.btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    background-color: #333;
+    font-size: xx-large;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.btn:hover {
+    filter: brightness(130%);
+}
+.btn:active {
+    filter: brightness(90%);
+}
+
+.btn.btn-grey {
+    background-color: #a6a6a6;
+}
+.btn.btn-orange {
+    background-color: #ff9501;
+}
+
+.btn.zero{
+    width: 130px;
+    border-radius: 34px;
+}
+/*------------------------------------------------------------------------------------*/
+.body-error{
+    background-color: rgba(208, 12, 12, 0.2);
+    transition: opacity 3s ease;
+}
+.calc-error{
+    border-bottom-color: rgb(255, 0, 0);
+    transition: opacity 3s ease;
+}
+.container-error{
+    box-shadow: 4px 4px 4px rgb(255, 0, 0);
+    transition: opacity 3s ease;
+}
